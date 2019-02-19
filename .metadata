@@ -1,0 +1,10 @@
+{
+    "name" : "starbound-colorpicker",
+    "friendlyName" : "Starbound Color Picker",
+    "priority" : 0,
+    "version" : "1.0.0",
+    "author" : "Magicks",
+    "description" : "Adds a colorpicker widget utility script.",
+    "requires" : [],
+    "includes" : []
+}
