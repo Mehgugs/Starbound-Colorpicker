@@ -5,17 +5,17 @@ A simple library for creating stateful colorpicker objects in starbound.
 ### Usage
 
 In the interface config file:
-```json
-"gui": : {
-    ...
+```json5
+"gui":  {
+    //...
     "mywidget" : {
         "type" : "canvas",
         "rect" : [0, 0, 1, 1], //can be anything only the position generated is needed
         "captureMouseEvents" : true
     }
-    ...
+    //...
 }
-...
+//...
 "canvasClickCallbacks" : {
     "mywidget" : "some_name"
 }
