@@ -56,7 +56,6 @@ end
 
 -- If the mouse is down and inside the canvas, update the color.
 function update(c)
-
     if c.down then
         local mouse = c.wid:mousePosition()
         local pos = widget.getPosition(c.wname)
@@ -78,7 +77,7 @@ function rgb(c) return {c:red(), c:green(), c:blue()} end
 function hex(c) return ("%06x"):format(c.selected) end
 
 -- The hue and lightness are estimates using the chart
---  to compute accurate hsl you should use the rbg values.
+--  to compute accurate hsl you should use the rgb values.
 function hue(c)
     return (c.mouse[1] / img_size[1])*360
 end
